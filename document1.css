@@ -1,0 +1,117 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin:0;
+  padding:0;
+  background-image: url("https://rmkec.ac.in/g_images/building/Main-Block1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right:0px;
+  background-size:cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  }
+a{
+  text-decoration:none;
+}
+  .form-container {
+      background: linear-gradient(to bottom right, #6b9aff, #83d4e4);
+      padding: 30px 30px;
+      border-radius: 8px;
+      box-shadow: 9px 9px 10px black;
+      width: 95%;
+      max-width: 500px;
+      text-align: center;
+      animation: popIn 1s ease-in-out forwards;
+      transform: scale(0.8);
+    }
+    @keyframes popIn {
+      0% {
+        opacity: 0;
+        transform: scale(0.8);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+.notification {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 10px;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.document{
+  margin-bottom: 15px;
+  text-align: left;
+  animation: fadeIn 1s ease-in-out 0.8s forwards;
+  opacity: 0;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.documenth2 {
+  text-align: left;
+  margin-bottom: 20px;
+  color: #0c0b0b;
+}
+
+.document label {
+  display: block;
+  font-weight: bold;
+  text-align:left;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.document input,
+.document select,
+.document button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom:10px;
+}
+
+.document input:focus,
+.document select:focus {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  outline: none;
+}
+
+.document button {
+  background-color: #6c63ff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+.document button:hover {
+  background-color: #140aaa;
+}
+
+
+
+
+
+
+
+
+

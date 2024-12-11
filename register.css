@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin:0;
+  padding:0;
+  background-image: url("https://rmkec.ac.in/g_images/building/Main-Block1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right:0px;
+  background-size:cover;
+  background-attachment: fixed;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+a{
+  text-decoration: none;
+}
+.registration-container {
+  background: linear-gradient(to bottom right, #6b9aff, #83d4e4);
+  padding: 30px 30px;
+  border-radius: 8px;
+  box-shadow: 9px 9px 10px black;
+  width: 95%;
+  max-width: 500px;
+  text-align: center;
+  animation: popIn 1s ease-in-out forwards;
+  transform: scale(0.8);
+}
+.header {
+  margin-bottom: 20px;
+  margin-bottom: 15px;
+    animation: slideIn 1s ease-in-out 0.5s forwards;
+    opacity: 0;
+}
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.header .avatar {
+  margin: 0 auto 5px;
+}
+
+.header .avatar img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.header h1 {
+  font-size: 1.5em;
+  color: #5a5a5a;
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+  animation: fadeIn 1s ease-in-out 0.8s forwards;
+  opacity: 0;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  outline: none;
+}
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.form-group small {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #888;
+}
+
+.button {
+  width: 80%;
+  padding: 10px;
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #140aaa;
+  transform: scale(1.1);
+}

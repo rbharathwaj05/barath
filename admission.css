@@ -1,0 +1,254 @@
+/*html section*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+
+/* Header Section */
+.header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(2, 48, 83); 
+  color: white;
+}
+.column h1{
+  column-count: 2;
+}
+.logo {
+  height: 80px;
+}
+
+.college-name h1 {
+  font-size: 1.8em; 
+  margin: 0;
+}
+
+.college-name p {
+  font-size: 0.9em;
+  color: #ffffff;
+}
+
+/* navigation Button */
+.nav {
+  display: flex;
+  gap: 80px;
+}
+
+.btn {
+  padding: 8px 15px;
+  background-color: #0a57e6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: rgb(8, 94, 159);
+}
+
+/* TNES code */
+.counseling-code {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.counseling-code span {
+  font-size: 1.5em;
+  font-weight:bolder;
+  color: #fff;
+}
+
+.counseling-code .code {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+  text-align:center;
+  background: #1abc9c;
+  padding: 5px ;
+  border-radius: 5px;
+  margin-bottom:20px;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 400px;
+  background: url('campus.jpg') no-repeat center center/cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-image:url("https://scontent.fmaa2-2.fna.fbcdn.net/v/t39.30808-6/300421291_398369502425833_2709484621417808882_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=U8mxPWyEpDoQ7kNvgGPmgGI&_nc_zt=23&_nc_ht=scontent.fmaa2-2.fna&_nc_gid=A_x1wQ3IHOQGPo8Moq0opDN&oh=00_AYC_g3_-7sNH8ntC3Dc-bRuOUjUbywc_DvumencPZ-K6jQ&oe=675F6173");
+  background-size: cover;
+  align-items: center;
+  justify-content: center;*/
+}
+
+/* Main Content Section */
+.main-content {
+  display: flex;
+  padding: 20px;
+}
+
+/* SideBar Section */
+.sidebar {
+  width: 350px;
+  background: rgb(2, 48, 83);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border: 2px solid white;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.menu-label:hover {
+  background: white;
+  color: rgb(2, 48, 83); 
+}
+
+.menu li {
+  margin: 10px 0;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background: rgb(2, 48, 83); 
+  color: #ecf0f1;
+  font-size: 16px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.menu li a:hover {
+  background: #1abc9c;
+  color: white;
+}
+
+.menu li.active a {
+  background: #1abc9c;
+  color: white;
+  font-weight: bold;
+}
+.content {
+  flex: 3;
+  padding: 20px;
+}
+
+.content h2 {
+  color: rgb(2, 48, 83);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background: rgb(2, 48, 83);
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* Footer Section */
+.footer {
+  background: #151515;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header1{
+  display: flex;
+  flex-wrap:wrap;
+  width:1800px;
+  height:300px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color:rgb(2, 48, 83);
+  color: white;
+}
+.contact-info {
+  font-size:14px;
+  font-family:'Times New Roman', Times, serif;
+
+}
+.college-details{
+  column-count:2;
+  column-gap: 20px;;
+}
+.footer .column {
+  flex: 1;
+  margin: 10px;
+}
+.footer .column1 {
+  column-count:2;
+  flex: 1;
+  color: #1abc9c;
+  margin: 10px;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+}
+
+.footer ul li {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #e5ee2a;
+}

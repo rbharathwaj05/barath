@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Student Document</title>
+  <link rel="stylesheet" href="document.css">
+</head>
+<body>
+  <div class="form-container">
+    <div class="notification">Please add the document.</div>
+
+
+    <form class="document">
+      <h2>Add Student Document</h2>
+
+      <label for="standard">Standard</label>
+      <select id="standard" name="standard" required>
+        <option value="10th">10th</option>
+      </select>
+
+      <label for="percentage">Percentage</label>
+      <input type="number" id="percentage" name="percentage" placeholder="Enter percentage" required>
+
+      <label for="year">Passing Year</label>
+      <input type="number" id="year" name="year" placeholder="Enter year" required>
+
+      <label for="file">Upload Document</label>
+      <input type="file" id="file" name="file" accept=".pdf" required>
+
+      <button type="submit">
+        <a href="document1.html" style="color: rgb(255, 255, 255); font-weight: bold;"> NEXT</a>
+      </button>
+
+    </form>
+  </div>
+</body>
+</html>
